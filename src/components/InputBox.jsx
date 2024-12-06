@@ -12,12 +12,7 @@ function InputBox({
     className = "",
     
 }) {
-    const Options= currencyOptions.map((currency)=>(
-        {
-            value: currency,
-            label: currency.toUpperCase()
-        }
-    ))
+    
    
 
     return (
